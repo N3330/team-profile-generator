@@ -1,7 +1,7 @@
 const buildManagerCard = (manager) => {
     return `
     <div class="card" style="width: 17rem;">
-    <h2 class="card-title bg-success">Manager</h2>
+    <h2 class="card-title bg-primary text-center">Manager</h2>
     <ul class="list-group list-group-flush">
   <li class="list-group-item">Name:${manager.getName()}</li>
   <li class="list-group-item">ID:${manager.getId()}</li>
@@ -15,7 +15,7 @@ const buildManagerCard = (manager) => {
 const buildEngineerCard = (engineer) => {
     return `
     <div class="card" style="width: 17rem;">
-    <h2 class="card-title bg-primary">Engineer</h2>
+    <h2 class="card-title bg-primary text-center">Engineer</h2>
     <ul class="list-group list-group-flush">
   <li class="list-group-item">Name:${engineer.getName()}</li>
   <li class="list-group-item">ID:${engineer.getId()}</li>
@@ -29,7 +29,7 @@ const buildEngineerCard = (engineer) => {
 const buildInternCard = (intern) => {
     return `
     <div class="card" style="width: 17rem;">
-    <h2 class="card-title bg-danger">Intern</h2>
+    <h2 class="card-title bg-primary text-center">Intern</h2>
     <ul class="list-group list-group-flush">
   <li class="list-group-item">Name:${intern.getName()}</li>
   <li class="list-group-item">ID:${intern.getId()}</li>
@@ -59,10 +59,10 @@ const generateTeam = (team) => {
     <title>New Biz Team</title>
 </head>
 <body>
-<header>
-<h1 class="text-center">New Biz Team</h1>
+<header class="mb-4">
+<h1 class="text-center bg-danger">New Biz Team</h1>
 </header>
-<div class="container d-flex justify-content-around">
+<div class="container d-flex justify-content-around mt-4">
   ${insertTeam(team)}  
   </div>
 </body>
