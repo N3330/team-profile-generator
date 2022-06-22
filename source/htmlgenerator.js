@@ -3,7 +3,7 @@ const buildManagerCard = (manager) => {
     <div class="card" style="width: 17rem;">
     <h2 class="card-title bg-primary text-center">Manager</h2>
     <ul class="list-group list-group-flush">
-  <li class="list-group-item">Name:${manager.getName()}</li>
+  <li class="list-group-item">Name: ${manager.getName()}</li>
   <li class="list-group-item">ID:${manager.getId()}</li>
   <li class="list-group-item">Email:<span id="email"><a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></span></li>
   <li class="list-group-item">Office Number:${manager.getOfficeNumber()}</li>
@@ -17,7 +17,7 @@ const buildEngineerCard = (engineer) => {
     <div class="card" style="width: 17rem;">
     <h2 class="card-title bg-primary text-center">Engineer</h2>
     <ul class="list-group list-group-flush">
-  <li class="list-group-item">Name:${engineer.getName()}</li>
+  <li class="list-group-item">Name: ${engineer.getName()}</li>
   <li class="list-group-item">ID:${engineer.getId()}</li>
   <li class="list-group-item">Email:<span id="email"><a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></span></li>
   <li class="list-group-item">Github Username: <a target="_blank" href="https://github.com/${engineer.getGithub()}">${engineer.getGithub()}</a></li>
@@ -31,7 +31,7 @@ const buildInternCard = (intern) => {
     <div class="card" style="width: 17rem;">
     <h2 class="card-title bg-primary text-center">Intern</h2>
     <ul class="list-group list-group-flush">
-  <li class="list-group-item">Name:${intern.getName()}</li>
+  <li class="list-group-item">Name: ${intern.getName()}</li>
   <li class="list-group-item">ID:${intern.getId()}</li>
   <li class="list-group-item">Email:<span id="email"><a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></span></li>
   <li class="list-group-item">School:${intern.getSchool()}</li>
