@@ -24,7 +24,7 @@ const mainMenu = () => {
         } else if (answer.emptype === "Manager") {
             askManager();
         } else {  
-          writeFile(path.join(__dirname, "/dist/team.html"), htmlGenerator(teamArray))
+          writeFile(path.join(__dirname, "/output/team.html"), htmlGenerator(teamArray))
           
         }
     })
