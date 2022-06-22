@@ -8,7 +8,7 @@ const util = require('util');
 const writeFile = util.promisify(fs.writeFile);
 const htmlGenerator = require('./source/htmlgenerator')
 teamArray = [];
-
+// main menu function to prompt what type of employee to create
 const mainMenu = () => {
     inquirer.prompt({
         type: "list",

@@ -15,3 +15,7 @@ where I  can decide to finish building my team At which point I exit the applica
 ![Team Builder](Team%20Generator.png)
 
 ## Resources
+- [Inquirer package](https://www.npmjs.com/package/inquirer)
+- [Bootstrap](https://getbootstrap.com/)
+- [Repository](https://github.com/N3330/team-profile-generator)
+- [Walkthrough Video](https://drive.google.com/file/d/17U0m84JOCM0LYZ0cQv3Woq7NGJcY7qA6/view?usp=sharing)
